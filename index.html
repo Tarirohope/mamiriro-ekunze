@@ -15,20 +15,26 @@
   <body>
     <div class="weather-app">
       <header>
-        <form>
+        <form id="search-form">
           <input
             type="search"
             placeholder="Enter a city..."
             required
             class="search-form-input"
+            id="search-input-form"
           />
-          <input type="submit" value="Search " class="search-button" />
+          <input
+            type="submit"
+            value="Search "
+            class="search-button"
+            id="search-button"
+          />
         </form>
       </header>
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city">Paris</h1>
+            <h1 class="weather-app-city" id="city">Paris</h1>
             <p class="weather-app-details">
               Tuesday 14:45, scattered clouds <br />
               Humidity: <strong> <span class="digits">66%</span></strong
@@ -50,5 +56,6 @@
         <a href="https://ephemeral-kangaroo-f2b3e5.netlify.app/"> Netlify</a>
       </footer>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
