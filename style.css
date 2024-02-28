@@ -1,9 +1,19 @@
 html {
   display: block;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
 body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
 .weather-app {
   background: white;
@@ -28,7 +38,7 @@ header {
 .search-button {
   background-color: blueviolet;
   border: none;
-  border-radius: 6px;
+  border-radius: 5px;
   width: 20%;
   padding: 20px;
   color: #f9f7fe;
