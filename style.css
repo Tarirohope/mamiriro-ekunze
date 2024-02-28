@@ -10,6 +10,7 @@ body {
   background-color: #f9f7fe;
   font-family: "Roboto", sans-serif;
   position: fixed;
+  margin-right: 10px;
   right: 0;
   left: 0;
   top: 0;
@@ -26,6 +27,9 @@ body {
 header {
   border-bottom: 1px solid #f9f7fe;
   padding: 0 0 30px 0;
+}
+.search-form {
+  margin-right: 10px;
 }
 .search-form-input {
   background-color: #f9f7fe;
