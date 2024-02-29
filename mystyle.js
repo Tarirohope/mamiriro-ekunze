@@ -91,3 +91,10 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("");
+.weather-app {
+  background: rgb(0, 183, 255);
+  max-width: 600px;
+  margin: 45px auto;
+  box-shadow: 45px;
+  border-radius: 16px;
+  padding: 30px;
