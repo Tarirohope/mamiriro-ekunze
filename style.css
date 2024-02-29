@@ -6,7 +6,7 @@ body {
 
 .weather-app {
   max-width: 600px;
-  margin: 60px auto;
+  margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
   font-family: "Roboto", sans-serif;
@@ -107,6 +107,7 @@ a {
 .weather-forecast-temperatures {
   text-align: center;
   margin-top: 10px;
+  margin-bottom: 0;
   display: flex;
   justify-content: center;
 }
