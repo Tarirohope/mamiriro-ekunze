@@ -5,7 +5,7 @@ body {
 }
 
 .weather-app {
-  max-width: 600px;
+  max-width: fit-content;
   margin: 30px auto;
   padding: 30px;
   border-radius: 10px;
