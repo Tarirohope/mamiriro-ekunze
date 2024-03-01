@@ -2,10 +2,13 @@ body {
   font-family: "Roboto", sans-serif;
   margin-right: 10px;
   background-color: white;
-  position: relative;
+  display: flex;
+  max-width: 600px;
+  text-align: center;
 }
 
 .weather-app {
+  justify-content: space-between;
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
@@ -20,6 +23,7 @@ header {
   padding: 0 0 30px 0;
 }
 .search-form {
+  display: flex;
 }
 .search-form-input {
   background-color: #f9f7fe;
@@ -89,7 +93,7 @@ a {
 }
 .weather-forecast {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-top: 30px;
   position: relative;
 }
