@@ -3,7 +3,6 @@ body {
   margin-right: 10px;
   background-color: white;
   display: flex;
-  justify-content: space-evenly;
   max-width: 600px;
 }
 
